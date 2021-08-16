@@ -16,10 +16,9 @@ public class Questao1 {
             faixaEtaria[i] = 0;
         }
 
-
         for(int i = 0; i<10; i++){
             System.out.println("Forneça a idade da pessoa "+(i+1)); //o usuário deve fornecer a idade das pessoas
-            pessoas[i] = scn.nextInt();
+            pessoas[i] = scn.nextInt(); 
 
             if(pessoas[i] > 0 && pessoas[i]<= 14){
                 faixaEtaria[0]++; //Até 14 anos

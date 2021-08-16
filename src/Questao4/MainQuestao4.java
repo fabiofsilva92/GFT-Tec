@@ -22,7 +22,7 @@ public class MainQuestao4 {
             }else{
                 System.out.println("Valor inválido");
             }
-        }while(opcao.length()>1);
+        }while(opcao.length()>1); //do while para caso digitem mais de um caractére.
 
 
     }
